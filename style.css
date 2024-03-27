@@ -88,6 +88,20 @@ body {
     padding: 10px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#pw2legend {
+    color: #e63946
+}
+
 #accountform input:focus {
     border: 1px solid #1982c4;
     outline: none;
@@ -127,7 +141,11 @@ body {
 }
 
 #create:hover {
-    background-color: #596d48a6;
+    background-color: #799e59a6;
+}
+
+#create:disabled {
+    background-color: gray;
 }
 
 #login {
