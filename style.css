@@ -8,12 +8,15 @@ body {
     flex-direction: row;
     font-family: Helvetica, Arial, sans-serif;
     height: 100vh;
+    margin: 0;
 }
 
 #containerleft {
-    background: url(img/backgroundimg.jpg);
-    min-width: 30%;
-    max-width: 80%;
+    background: top url(img/backgroundimg.jpg);
+    background-size: cover;
+    min-width: 350px;
+    width: 50%;
+    max-width: 700px;
     max-height: 100vh;
     text-align: center;
     display: flex;
